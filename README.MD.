@@ -1,0 +1,107 @@
+School Bus Tracking and Notification System
+
+📌 Project Overview
+
+The School Bus Tracking and Notification System is a web-based application designed to help parents and school administrators monitor school bus activities and receive important notifications.
+
+The system helps parents stay informed about their children’s transportation by providing bus tracking information and notifications regarding bus arrival and departure.
+
+🎯 Objectives
+
+* To provide an easy way to monitor school bus activities.
+* To improve communication between parents and school administrators.
+* To provide timely notifications about bus arrival and departure.
+* To improve student transportation safety.
+* To reduce the uncertainty and waiting time for parents.
+
+✨ Features
+
+* Bus Tracking: Monitor school bus location and movement.
+* Notifications: Receive important bus-related updates.
+* Student Management: Maintain student information.
+* Bus Management: Manage bus details and information.
+* Admin Management: Manage system activities and records.
+* Parent Communication: Help parents stay updated about transportation.
+
+🛠️ Technologies Used
+
+* Python
+* Flask
+* SQLite
+* HTML
+* CSS
+* JavaScript
+
+💻 System Requirements
+
+Hardware Requirements
+
+* Processor: Intel Core i3 or above
+* RAM: Minimum 4 GB
+* Hard Disk: Minimum 500 MB free space
+
+Software Requirements
+
+* Operating System: Windows 10/11
+* Python
+* Visual Studio Code
+* Web Browser
+* SQLite Database
+
+📂 Project Structure
+
+SchoolBusTrackingSystem/
+│
+├── app.py
+├── database.db
+├── templates/
+├── static/
+└── README.md
+
+Note: Update the folder structure according to the actual files in your repository.
+
+⚙️ Installation and Execution
+
+1. Clone the repository:
+
+git clone https://github.com/rihana15172004/SchoolBusTrackingSystem.git
+
+2. Open the project folder:
+
+cd SchoolBusTrackingSystem
+
+3. Install Flask:
+
+pip install flask
+
+4. Run the application:
+
+python app.py
+
+5. Open your browser and visit:
+
+http://127.0.0.1:5000/
+
+🔄 Working Process
+
+1. The administrator manages bus and student details.
+2. Bus-related information is maintained in the database.
+3. The system provides bus tracking information.
+4. Parents receive relevant notifications.
+5. The system helps parents stay informed about school transportation.
+
+🚀 Future Enhancements
+
+* Real-time GPS tracking.
+* SMS and email notifications.
+* Mobile application integration.
+* Live location sharing.
+* Improved security and authentication.
+
+👩‍💻 Developed By
+
+Rihana Banu A.
+
+📜 License
+
+This project is developed for academic and educational purposes.
