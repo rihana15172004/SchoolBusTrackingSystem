@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1{
+    color: darkblue;
+    margin-top: 30px;
+}
+
+.login-box{
+    background-color: white;
+    width: 750px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h2{
+    color: darkblue;
+}
+
+.details{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+.details p{
+    font-size: 22px;
+    margin: 12px 0;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: darkblue;
+}
+
+hr{
+    margin: 20px 0;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Routes</title>
+</head>
+<body>
+
+<h1>Bus Routes</h1>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>ID</th>
+        <th>Route Name</th>
+        <th>Start Location</th>
+        <th>End Location</th>
+    </tr>
+
+    {% for route in routes %}
+    <tr>
+        <td>{{ route[0] }}</td>
+        <td>{{ route[1] }}</td>
+        <td>{{ route[2] }}</td>
+        <td>{{ route[3] }}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+
+</body>
+</html>
